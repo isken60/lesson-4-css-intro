@@ -1,0 +1,48 @@
+/* Универсальный селектор CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Селектор по тегу */
+h1 {
+  color: red;
+}
+/* селектор по классу */
+.makers-3 {
+  /* background-color: aqua;
+    background-image: url; */
+  background: red;
+}
+/* селектор по id */
+#google {
+  text-decoration: none;
+  border: 2px solid green;
+  margin: 20px;
+  padding: 40px;
+}
+.block {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  /* margin: 10px;
+    margin: 10px 20px;
+    margin: 10px 20px 30px;
+    margin: 10px 20px 30px 40px; */
+  padding: 30px;
+  /* display: none; */
+  /* display: inline; */
+  /* display: inline-block; */
+  /* display: block; */
+}
+.block-size {
+  font-size: 40px;
+  font-weight: 700;
+  border-radius: 20px;
+}
+p {
+  font-family: "Roboto Flex", sans-serif;
+}
+#lorem10 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+}
